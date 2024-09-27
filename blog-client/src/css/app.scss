@@ -1,0 +1,63 @@
+// app global css in SCSS form
+.a{
+    opacity: 0.7;
+}
+
+.a:hover{
+    opacity: 1;
+    background-color: gray;
+}
+b{
+    opacity: 0.7;
+}
+b:hover{
+    opacity: 1;
+    text-decoration: underline;
+}
+.sidebar{
+    background-color: #2E2E2E;
+    position: absolute;
+   
+    left: 0;
+    width:50px;
+    height:100%;
+    z-index: 1000;
+    overflow: hidden;
+    transition: 0.3s;
+}
+.sidebar:hover{
+    width:280px
+}
+
+.q-list:hover{
+    background-color: aquamarine;
+    color: #333333;
+}
+
+.custom-color{
+    color: white;
+}
+.search{
+    position: relative;
+    width: 400px;
+    height: 10px;
+}
+.searchIcon{
+    position: absolute;
+    right: 5px;
+    top: 15px;
+}
+.absolute{
+    position: absolute;
+    bottom: 5px;
+}
+.absolute.q-list:hover{
+    width: 100%;
+    background-color: aquamarine;
+    color: #333333;
+}
+.form{
+    border: 1px solid black ;
+    margin-left: 450px;
+    margin-top: 100px;
+}
